@@ -1,0 +1,153 @@
+<resources>
+    <string name="app_name">LocalSync</string>
+
+    <string name="action_back">返回</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_save">保存</string>
+    <string name="action_saving">保存中</string>
+
+    <string name="home_empty_title">还没有同步任务</string>
+    <string name="home_empty_body">创建一个任务，将一个本地 SAF 文件夹同步到一个 WebDAV 远程文件夹。</string>
+    <string name="home_select_task">请选择一个同步任务</string>
+    <string name="field_local_folder">本地文件夹</string>
+    <string name="delete_mode_keep_remote">复制到云端</string>
+    <string name="delete_mode_delete_remote">同步到云端</string>
+
+    <string name="task_new_title">新建同步任务</string>
+    <string name="task_edit_title">编辑同步任务</string>
+    <string name="field_task_name">任务名称</string>
+    <string name="field_remote_folder">WebDAV 远程文件夹</string>
+    <string name="task_wifi_only_title">仅 Wi-Fi 同步</string>
+    <string name="task_wifi_only_desc">使用移动网络时不执行这个任务。</string>
+    <string name="task_delete_mode_title">删除模式</string>
+    <string name="error_task_name_required">请输入任务名称。</string>
+    <string name="error_choose_local_folder">请选择本地文件夹。</string>
+    <string name="error_remote_folder_required">请输入 WebDAV 远程文件夹。</string>
+    <string name="file_status_new">新增</string>
+    <string name="file_status_skipped">跳过</string>
+    <string name="file_status_upload_failed">上传失败</string>
+
+    <string name="settings_title">设置</string>
+    <string name="field_webdav_address">WebDAV 地址</string>
+    <string name="field_username">用户名</string>
+    <string name="field_app_password">应用密码</string>
+    <string name="settings_password_tip">请填写坚果云第三方应用管理中生成的应用密码。</string>
+    <string name="action_test_connection">测试并保存</string>
+    <string name="action_testing">测试中</string>
+    <string name="action_save_settings">保存设置</string>
+    <string name="settings_saved">设置已保存。</string>
+    <string name="webdav_test_success">连接成功，设置已保存。</string>
+    <string name="webdav_address_error">地址错误，请检查 WebDAV 地址。</string>
+    <string name="webdav_auth_error">用户名或应用密码错误。</string>
+    <string name="webdav_network_error">网络错误，请检查网络连接。</string>
+    <string name="webdav_server_error">服务器错误，HTTP 状态码：%1$d。</string>
+
+    <string name="logs_title">日志</string>
+    <!-- 主页 HomeScreen -->
+    <string name="home_create_task">新建任务</string>
+    <string name="home_settings">设置</string>
+    <string name="home_scan_sync_all">扫描同步全部</string>
+    <string name="home_full_scan_all">完整扫描全部</string>
+    <string name="home_full_scan_confirm_title">完整扫描全部任务？</string>
+    <string name="home_full_scan_confirm_body">这会重新检查所有文件，可能耗时较久。</string>
+    <string name="home_start_full_scan">开始完整扫描</string>
+    <string name="home_confirm_delete_title">确认删除</string>
+    <string name="home_confirm_delete_body">确认删除任务"%1$s"？</string>
+    <string name="home_delete">删除</string>
+    <string name="home_cancel">取消</string>
+    <string name="home_edit">编辑</string>
+    <string name="home_current_task">当前任务</string>
+    <string name="home_select_task_hint">从左侧选择任务后，这里会显示任务信息、操作和同步状态。</string>
+    <string name="home_confirm_remote_delete">确认删除云端</string>
+    <string name="home_pause">暂停</string>
+    <string name="home_resume">恢复</string>
+    <string name="home_pause_all">暂停全部</string>
+    <string name="home_cancel_task">取消任务</string>
+    <string name="home_resume_all">恢复全部</string>
+    <string name="home_file_record_empty">本地文件记录：暂无</string>
+    <string name="home_details">详情</string>
+    <string name="home_scan_details">本轮详情</string>
+    <string name="home_previous_scan_details">上轮详情</string>
+    <string name="home_nothing_to_process">无需处理</string>
+    <string name="home_close">关闭</string>
+    <string name="home_logs">日志</string>
+    <string name="home_clear">清空</string>
+    <!-- 文件状态标签 -->
+    <string name="file_status_pending_overwrite">待覆盖上传</string>
+    <string name="file_status_locally_deleted">本地已删除</string>
+    <string name="file_status_pending_cloud_delete">待删除云端</string>
+    <string name="file_status_pending_retry">待重新上传</string>
+    <string name="file_status_sync_complete">已同步</string>
+    <string name="file_status_overwrite_complete">已覆盖上传</string>
+    <string name="file_status_cloud_deleted">云端删除</string>
+    <string name="file_status_delete_failed">云端删除失败</string>
+    <string name="file_status_locally_deleted_keep_remote">本地已删除</string>
+
+    <!-- 扫描摘要 -->
+    <string name="scan_summary_no_results">最新扫描：暂无本轮扫描结果</string>
+    <string name="scan_summary_no_changes">最新扫描 #%1$d：无需处理</string>
+    <string name="scan_summary_header">最新扫描 #%1$d：共 %2$d 个文件</string>
+    <string name="scan_summary_updated_at">最后更新：%1$s</string>
+    <string name="scan_summary_not_recorded">未记录</string>
+    <string name="scan_summary_no_completed_results">暂未同步</string>
+    <string name="scan_summary_incomplete">本轮扫描未完成</string>
+
+    <!-- 扫描筛选器 -->
+    <string name="scan_filter_pending">待同步</string>
+    <string name="scan_filter_synced">已同步</string>
+    <string name="scan_filter_failed">失败</string>
+    <string name="scan_filter_ignored">已忽略</string>
+
+    <!-- 任务编辑 TaskEditScreen -->
+    <string name="task_edit_local_real_path">本地真实路径</string>
+    <string name="task_edit_select_local_folder">选择本地文件夹</string>
+    <string name="task_edit_no_local_folder">尚未选择本地文件夹</string>
+    <string name="task_edit_no_webdav_folder">尚未选择 WebDAV 远程文件夹</string>
+    <string name="task_edit_browse_webdav_folder">浏览选择 WebDAV 文件夹</string>
+    <string name="task_edit_select_local_folder_title">选择本地文件夹</string>
+    <string name="task_edit_current_position">当前位置：%1$s</string>
+    <string name="task_edit_parent">上一级</string>
+    <string name="task_edit_use_current_folder">使用当前文件夹</string>
+    <string name="task_edit_cancel">取消</string>
+    <string name="task_edit_select_webdav_folder_title">选择 WebDAV 远程文件夹</string>
+    <string name="task_edit_new_folder_name">新文件夹名称</string>
+    <string name="task_edit_create_remote_folder">新建文件夹</string>
+    <string name="task_edit_creating">创建中</string>
+    <string name="task_edit_create">新建</string>
+    <string name="task_edit_creating_remote_folder">正在创建远程文件夹</string>
+    <string name="task_edit_reading_remote_folder">正在读取远程文件夹</string>
+    <string name="task_edit_current_option">当前</string>
+    <string name="task_edit_optional">可选</string>
+
+    <!-- 设置 SettingsScreen -->
+    <string name="settings_webdav_section">WebDAV 设置</string>
+    <string name="settings_debug_logs">打开debug日志</string>
+    <string name="settings_auto_scan_on_start">打开 App 后自动扫描并同步</string>
+    <string name="settings_more_actions">更多操作</string>
+    <string name="settings_grant_file_permission">授权文件管理</string>
+    <string name="settings_permission_granted">当前状态：已授权</string>
+    <string name="settings_permission_not_granted">当前状态：未授权</string>
+
+    <!-- 扫描项详情 -->
+    <string name="scan_item_new">待新增%1$d个文件</string>
+    <string name="scan_item_modified">待覆盖上传%1$d个文件</string>
+    <string name="scan_item_retry">待重新上传%1$d个文件</string>
+    <string name="scan_item_local_deleted">待删除云端%1$d个文件</string>
+    <string name="scan_item_synced">已同步%1$d</string>
+    <string name="scan_item_overwrite">已覆盖上传%1$d</string>
+    <string name="scan_item_remote_deleted">云端删除%1$d</string>
+    <string name="scan_item_local_deleted_keep">本地已删除%1$d个文件</string>
+    <string name="scan_item_upload_failed">上传失败%1$d</string>
+    <string name="scan_item_modified_failed">修改失败%1$d</string>
+    <string name="scan_item_delete_failed">云端删除失败%1$d</string>
+
+    <!-- 日志 LogScreen -->
+    <string name="log_resume_scroll">继续滚动</string>
+    <string name="log_pause_scroll">暂停滚动</string>
+    <string name="log_clear_logs">清空日志</string>
+    <string name="log_filter_primary">主要</string>
+    <string name="log_filter_success">成功</string>
+    <string name="log_filter_failed">失败</string>
+    <string name="log_filter_all">全部</string>
+    <string name="log_filter_debug">Debug</string>
+</resources>
